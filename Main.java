@@ -1,6 +1,6 @@
 package com.company;
 import java.util.Random;
-import java.lang.StrictMath;
+import java.lang.Math;
 
 public class Main{
     public static void main(String[] arg){
@@ -39,15 +39,15 @@ public class Main{
 
                 if(z[i] == 22){
                     /*Type of trigonometric functions output is double*/
-                    q[i][j] = StrictMath.atan(StrictMath.cos(StrictMath.cbrt(StrictMath.sin(value))));
+                    q[i][j] = Math.atan(Math.cos(Math.cbrt(Math.sin(value))));
                 }
 
                 /*For specific P values*/
                 else if(z[i] == 6 | z[i] ==8 | z[i] == 10 | z[i] == 16 | z[i] == 20 ){
-                    q[i][j] = StrictMath.pow(((StrictMath.cos(value)/1)/(2/1)/3),2);
+                    q[i][j] = Math.pow(((Math.cos(value)/1)/(2/1)/3),2);
                 }
                 else{
-                    q[i][j] =  StrictMath.exp(StrictMath.pow(StrictMath.tan(value), (StrictMath.tan(value) / (StrictMath.cos(value) -1)+1)));
+                    q[i][j] =  Math.exp(Math.pow(Math.tan(value), (Math.tan(value) / (Math.cos(value) -1)+1)));
                 }
 
                 System.out.printf("%.2f ", q[i][j]);
