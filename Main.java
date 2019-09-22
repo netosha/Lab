@@ -41,7 +41,7 @@ public class Main{
                     q[i][j] = Math.atan(Math.cos(Math.cbrt(Math.sin(value))));
                 }
 
-                /*For specific P values*/
+                /*For specific Z values*/
                 else if(z[i] == 6 | z[i] ==8 | z[i] == 10 | z[i] == 16 | z[i] == 20 ){
                     q[i][j] = Math.pow(((Math.cos(value)/1)/(2/1)/3),2);
                 }
