@@ -5,7 +5,7 @@ public class Main{
     public static void main(String[] arg){
         /*First Task
          *
-         * Создать одномерный массив p типа int.
+         * Создать одномерный массив z типа int.
          * Заполнить его чётными числами от 6 до 24 включительно в порядке возрастания.
          * */
         int[] z = new int[10];
@@ -27,7 +27,7 @@ public class Main{
 
         /*Third Task
          *
-         * Создать двумерный массив k размером 10x20.
+         * Создать двумерный массив q размером 10x20.
          * etc.
          * */
         double q[][] = new double[10][20];
